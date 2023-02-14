@@ -153,3 +153,65 @@ footer{
 .contatos li{
     margin-right: 5px;
 }
+
+@media (max-width:769px) {
+  .container-elementos-header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  header{
+    height: 170px;
+  }
+  label{
+    margin-bottom: 1rem;
+  }
+  .lista_cartao_branco{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartao_branco{
+    width: 90%;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+
+  .card_paragrafo {
+    width: auto;
+    margin-top: 1rem;
+}
+
+.div_final{
+    margin-top: 0;
+}
+
+footer{
+    display: block;
+    padding: 1rem 1rem;
+}
+
+.logos_esquerda{
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo_desenvolve{
+    display: none;
+}
+.logo_img{
+    margin-right: 5px;
+    width: 10rem;
+}
+
+.gb_sai_footer{
+    display: none;
+}
+
+.logos_direita{
+    justify-content: space-between;
+}
+.alura{
+    width: 30%;
+}
+
+}
