@@ -1,11 +1,9 @@
-/* Importação de fonte via Google Fonts --------- */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
-/* Reset básico --------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* Body --------- */
@@ -53,4 +51,105 @@ header {
 
 ::placeholder {
     color: #FF97D3;
+}
+
+.cartao_branco{
+    background-color: white;
+    width: 400px;
+    padding:  1.5rem;
+    margin: 0px 25px;
+
+}
+
+.card_paragrafo{
+    width: 328.1px;
+    height: 210px;
+    font-weight:300;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.botao{
+
+    font-family: 'IBM', sans-serif;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+    border: 1px #264FEC solid;
+    border-radius: 4px;
+    padding: 12px 10px;
+    color: #264FEC;
+}
+
+.lista_cartao_branco{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    
+}
+
+.meio{
+    margin: 0;
+}
+
+.div_final{
+    margin-bottom: 5rem;
+}
+
+
+footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between
+}
+
+.contatos {
+    display: flex;
+    list-style:  none;
+}
+
+.logos_esquerda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+}
+
+.logo_img{
+    width: 4rem;
+}
+
+.logo_desenvolve{
+    width: 35%;
+    height: 25%;
+}
+
+.p_footer {
+    font-weight: 600;
+    color: #0A1B36;
+
+}
+
+.logos_direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_desenvolve{
+    display: flex;
+    justify-content: center;
+
+}
+
+.div_p{
+    margin-right: 2rem;
+}
+
+.contatos li{
+    margin-right: 5px;
 }
